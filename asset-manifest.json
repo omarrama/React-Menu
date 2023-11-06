@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Menu/static/css/main.2779639b.css",
+    "main.js": "/React-Menu/static/js/main.1a9f988b.js",
+    "index.html": "/React-Menu/index.html",
+    "main.2779639b.css.map": "/React-Menu/static/css/main.2779639b.css.map",
+    "main.1a9f988b.js.map": "/React-Menu/static/js/main.1a9f988b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2779639b.css",
+    "static/js/main.1a9f988b.js"
+  ]
+}
