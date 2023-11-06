@@ -1,0 +1,108 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #b45b35;
+}
+
+.body-style {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+  background: #b45b35;
+  background: repeating-radial-gradient(
+    circle farthest-corner at center center,
+    #b45b35 0%,
+    #cf1512 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.menu-title {
+  color: #224f61;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.menu-underline {
+  height: 1px;
+  width: 180px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+}
+
+.btn-category {
+  font-size: 20px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  padding: 4px 12px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.btn-category:hover {
+  background-color: var(--primary-color);
+  font-weight: bold;
+  color: blanchedalmond;
+  border-style: none;
+}
+
+.meal-title {
+  color: #224f61;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.meal-price {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: normal;
+  border-bottom: 1px dashed var(--primary-color);
+  padding-bottom: 2px;
+}
+
+.meal-description {
+  color: #555555;
+  font-size: 1rem;
+}
+
+.card-color {
+  background-color: #f8f8f8;
+}
+
+.btn-search {
+  color: var(--primary-color);
+  border-radius: 3px solid var(--primary-color);
+  border-radius: 8px;
+  background-color: white;
+  background: #b45b35;
+  background: repeating-radial-gradient(
+    circle farthest-corner at center center,
+    #b45b35 0%,
+    #cf1512 100%
+  );
+  -webkit-text-fill-color: white;
+}
+
+.btn-search:hover {
+  color: white;
+  border-radius: 3px solid white;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}
